@@ -1,0 +1,106 @@
+*{ padding: 0px; margin: 0px; }
+
+body{
+	background-color: white;
+	font-family: sans-serif;
+}
+
+header{
+	background: url(../image/slider-1-1920x1080.jpg);
+	background-size: cover;
+	min-height: 550px;
+	width: 100%;
+}
+
+.navbar-toggler{
+    margin-top: 10px;
+}
+
+.fa-bars{
+	color: #fff;
+}
+
+
+nav ul li a{
+	color: white;
+}
+
+nav ul li a:hover{
+	color: #17a2b8;
+	transition: all 1s ease;
+}
+
+.myintro{
+	background-color: white;
+	position: absolute;
+	top: 55%;
+
+}
+
+.myintro img{
+	margin-top: -100px;
+	height: 200px;
+	border-radius: 60%;
+}
+
+.icon a{
+	font-size: 18px;
+	background-color: #000;
+	border-radius: 20px 20px 20px 20px;
+	color: #fff;
+}
+
+.icon a:hover{
+	background-color: orange;
+	border-radius: 20px 20px 20px 20px;
+	transition: all 1s ease;
+	color: black;
+}
+
+
+.bordergradient{
+	border-right: 2px solid; 
+	border-image: linear-gradient(pink,hotpink,green,blue,orange,yellow);  
+	border-image-slice: 2;
+}
+
+.mixcontent img{
+	height: 150px;
+	width: 320px;
+}
+
+.margin{
+	margin: 0px;
+	padding: 0px;
+}
+
+.form-control{
+	background: transparent;
+	border: transparent;
+	border-bottom: 1px solid #ccc;
+}
+
+footer{
+	background-color: #38023d;
+}
+
+
+@media(max-width: 768px){
+	.marginres{
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.logo{
+		height: 15px;
+		margin-top: 10px;
+	}
+
+	nav ul li a:hover{
+	font-size: 18px;
+	transition: all 1s ease;
+	transform: rotate(0deg);
+	margin-left: 3px;
+   }
+
+}
